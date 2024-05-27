@@ -8,7 +8,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   Serial.println("Now Watering Plant.");
   digitalWrite(relayPin, HIGH);
   delay(5000);
