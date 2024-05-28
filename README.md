@@ -13,3 +13,6 @@ For Version 1.0, the main.cpp file controls how often the Esp32 will water the p
 
 >Libraries
 - Arduino.h
+  
+## Version 2.0
+
