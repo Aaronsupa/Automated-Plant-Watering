@@ -20,3 +20,10 @@ For version 2.0, I implemented a web server that allows for a user to control th
 >Additional Libraries
 - Wifi.h
 
+## Version 3.0
+For version 3.0, I added a DHT11 sensor to monitor temperature and humidity. This will be monitored using InfluxDB in version 4.0. To implement the DHT sensor, I added the jumper connections to the ESP32, imported the necessary libraries, and programmed to ensure the connection was stable.
+
+>Additional Libraries
+- Adafruit_Sensor.h
+- DHT.h
+- DHT_U.h
